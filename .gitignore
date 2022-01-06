@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+
+#Hazelnut_Latte
+#Directories
+.vs/
+bin/
+bin-int/
+#Files
+*.user
