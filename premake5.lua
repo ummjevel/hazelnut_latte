@@ -10,6 +10,11 @@ workspace "Hazelnut_Latte"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "Hazelnut_Latte/vendor/GLFW/include"
+
+include "Hazelnut_Latte/vendor/GLFW"
+
 project "Hazelnut_Latte"
 
 	location "Hazelnut_Latte"	
@@ -30,8 +35,15 @@ project "Hazelnut_Latte"
 
 	includedirs
 	{
-		"%{prj.name}/vendor/spdlog/include"
-		"%{prj.name}"
+		"%{prj.name}/src",
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
