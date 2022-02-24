@@ -18,5 +18,5 @@ namespace Hazel {
 		WindowResizeEvent e(1280, 720);
 		HZ_TRACE(e);
 		while (true);
-	}
+	} 
 }
