@@ -1,0 +1,3 @@
+[submodule "Hazelnut_Latte/vendor/spdlog"]
+	path = Hazelnut_Latte/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

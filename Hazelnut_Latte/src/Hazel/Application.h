@@ -1,4 +1,5 @@
 #pragma once
+
 #include "Core.h"
 #include "Events/Event.h"
 
@@ -14,4 +15,4 @@ namespace Hazel {
 
 	// To be defined in CLIENT
 	Application* CreateApplication();
-}
+};

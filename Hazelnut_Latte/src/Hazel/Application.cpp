@@ -1,11 +1,10 @@
+#include "hzpch.h"
 #include "Application.h"
 
-#include "Hazel/Events/ApplicationEvent.h"
-#include "Hazel/Log.h"
+#include "Events/ApplicationEvent.h"
+#include "Log.h"
 
 namespace Hazel {
-
-
 
 	Application::Application() {
 
