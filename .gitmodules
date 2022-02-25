@@ -4,3 +4,6 @@
 [submodule "Hazelnut_Latte/vendor/GLFW"]
 	path = Hazelnut_Latte/vendor/GLFW
 	url = https://github.com/TheCherno/glfw
+[submodule "Hazelnut_Latte/vendor/imgui"]
+	path = Hazelnut_Latte/vendor/imgui
+	url = https://github.com/TheCherno/imgui
